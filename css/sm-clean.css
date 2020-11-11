@@ -238,10 +238,10 @@
         background: #eeeeee;
     }
     .sm-clean span.scroll-up:hover span.scroll-up-arrow, .sm-clean span.scroll-up:hover span.scroll-down-arrow {
-        border-color: transparent transparent #faae8a transparent;
+        border-color: transparent transparent #2A2731 transparent;
     }
     .sm-clean span.scroll-down:hover span.scroll-down-arrow {
-        border-color: #faae8a transparent transparent transparent;
+        border-color: #2A2731 transparent transparent transparent;
     }
     .sm-clean span.scroll-up-arrow, .sm-clean span.scroll-down-arrow {
         position: absolute;
