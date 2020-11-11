@@ -695,7 +695,6 @@ function makeArray( obj ) {
         this.addImage( elem );
       }
       // find children
-      // no non-element nodes, #143
       var nodeType = elem.nodeType;
       if ( !nodeType || !( nodeType === 1 || nodeType === 9 || nodeType === 11 ) ) {
         continue;
@@ -827,7 +826,6 @@ function makeArray( obj ) {
   // -------------------------- Resource -------------------------- //
 
   // Resource checks each src, only once
-  // separate class from LoadingImage to prevent memory leaks. See #115
 
   var cache = {};
 
